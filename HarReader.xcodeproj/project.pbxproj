@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833A4A601D71FBE20088E5FD /* CodeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A4A5F1D71FBE20088E5FD /* CodeTools.m */; };
+		833A4A671D71FCC50088E5FD /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A4A661D71FCC50088E5FD /* Base64.m */; };
+		834FCE331D888B9500106891 /* openlab.har in Resources */ = {isa = PBXBuildFile; fileRef = 834FCE321D888B9500106891 /* openlab.har */; };
+		8397D4E11D71263800081739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4E01D71263800081739 /* AppDelegate.swift */; };
+		8397D4E31D71263800081739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4E21D71263800081739 /* ViewController.swift */; };
+		8397D4E61D71263800081739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E41D71263800081739 /* Main.storyboard */; };
+		8397D4E81D71263800081739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E71D71263800081739 /* Assets.xcassets */; };
+		8397D4EB1D71263800081739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E91D71263800081739 /* LaunchScreen.storyboard */; };
+		8397D4F71D71342600081739 /* HARFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4F61D71342600081739 /* HARFile.swift */; };
+		CED061C5A9A7F41EFF9F64DA /* Pods_HarReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0769C06797E6A18B70A73 /* Pods_HarReader.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35D0769C06797E6A18B70A73 /* Pods_HarReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E34447BFB33DFD49AFB9CA /* Pods-HarReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarReader/Pods-HarReader.debug.xcconfig"; sourceTree = "<group>"; };
+		833A4A5E1D71FBE20088E5FD /* CodeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTools.h; sourceTree = "<group>"; };
+		833A4A5F1D71FBE20088E5FD /* CodeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTools.m; sourceTree = "<group>"; };
+		833A4A641D71FC1C0088E5FD /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		833A4A651D71FCC50088E5FD /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		833A4A661D71FCC50088E5FD /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		834FCE321D888B9500106891 /* openlab.har */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openlab.har; sourceTree = "<group>"; };
+		8397D4DD1D71263800081739 /* HarReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8397D4E01D71263800081739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8397D4E21D71263800081739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8397D4E51D71263800081739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8397D4E71D71263800081739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8397D4EA1D71263800081739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8397D4EC1D71263800081739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8397D4F61D71342600081739 /* HARFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HARFile.swift; sourceTree = "<group>"; };
+		954A5C7D467BEF645019C4CE /* Pods-HarReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarReader/Pods-HarReader.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8397D4DA1D71263800081739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED061C5A9A7F41EFF9F64DA /* Pods_HarReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491EF0D780FB74B792C2988F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60E34447BFB33DFD49AFB9CA /* Pods-HarReader.debug.xcconfig */,
+				954A5C7D467BEF645019C4CE /* Pods-HarReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		833A4A5D1D71FBE20088E5FD /* External */ = {
+			isa = PBXGroup;
+			children = (
+				833A4A651D71FCC50088E5FD /* Base64.h */,
+				833A4A661D71FCC50088E5FD /* Base64.m */,
+				833A4A5E1D71FBE20088E5FD /* CodeTools.h */,
+				833A4A5F1D71FBE20088E5FD /* CodeTools.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8397D4D41D71263800081739 = {
+			isa = PBXGroup;
+			children = (
+				833A4A641D71FC1C0088E5FD /* BridgingHeader.h */,
+				834FCE321D888B9500106891 /* openlab.har */,
+				833A4A5D1D71FBE20088E5FD /* External */,
+				8397D4DF1D71263800081739 /* HarReader */,
+				8397D4DE1D71263800081739 /* Products */,
+				491EF0D780FB74B792C2988F /* Pods */,
+				CF7A06DDD712017CAB297C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8397D4DE1D71263800081739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8397D4DD1D71263800081739 /* HarReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8397D4DF1D71263800081739 /* HarReader */ = {
+			isa = PBXGroup;
+			children = (
+				8397D4E01D71263800081739 /* AppDelegate.swift */,
+				8397D4E21D71263800081739 /* ViewController.swift */,
+				8397D4E41D71263800081739 /* Main.storyboard */,
+				8397D4E71D71263800081739 /* Assets.xcassets */,
+				8397D4E91D71263800081739 /* LaunchScreen.storyboard */,
+				8397D4EC1D71263800081739 /* Info.plist */,
+				8397D4F61D71342600081739 /* HARFile.swift */,
+			);
+			path = HarReader;
+			sourceTree = "<group>";
+		};
+		CF7A06DDD712017CAB297C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D0769C06797E6A18B70A73 /* Pods_HarReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8397D4DC1D71263800081739 /* HarReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8397D4EF1D71263800081739 /* Build configuration list for PBXNativeTarget "HarReader" */;
+			buildPhases = (
+				918070A5007E381B0FA3E2CA /* [CP] Check Pods Manifest.lock */,
+				8397D4D91D71263800081739 /* Sources */,
+				8397D4DA1D71263800081739 /* Frameworks */,
+				8397D4DB1D71263800081739 /* Resources */,
+				A6AB4FF74E92359EFFB32B7C /* [CP] Embed Pods Frameworks */,
+				29325A591D969B1550015696 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarReader;
+			productName = HarReader;
+			productReference = 8397D4DD1D71263800081739 /* HarReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8397D4D51D71263800081739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "John Pope";
+				TargetAttributes = {
+					8397D4DC1D71263800081739 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KL43C67G5Z;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 8397D4D81D71263800081739 /* Build configuration list for PBXProject "HarReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8397D4D41D71263800081739;
+			productRefGroup = 8397D4DE1D71263800081739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8397D4DC1D71263800081739 /* HarReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8397D4DB1D71263800081739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397D4EB1D71263800081739 /* LaunchScreen.storyboard in Resources */,
+				834FCE331D888B9500106891 /* openlab.har in Resources */,
+				8397D4E81D71263800081739 /* Assets.xcassets in Resources */,
+				8397D4E61D71263800081739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29325A591D969B1550015696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarReader/Pods-HarReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		918070A5007E381B0FA3E2CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6AB4FF74E92359EFFB32B7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarReader/Pods-HarReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8397D4D91D71263800081739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397D4F71D71342600081739 /* HARFile.swift in Sources */,
+				833A4A671D71FCC50088E5FD /* Base64.m in Sources */,
+				8397D4E31D71263800081739 /* ViewController.swift in Sources */,
+				833A4A601D71FBE20088E5FD /* CodeTools.m in Sources */,
+				8397D4E11D71263800081739 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8397D4E41D71263800081739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8397D4E51D71263800081739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8397D4E91D71263800081739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8397D4EA1D71263800081739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8397D4ED1D71263800081739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8397D4EE1D71263800081739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8397D4F01D71263800081739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E34447BFB33DFD49AFB9CA /* Pods-HarReader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KL43C67G5Z;
+				INFOPLIST_FILE = HarReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifi.HarReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		8397D4F11D71263800081739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954A5C7D467BEF645019C4CE /* Pods-HarReader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KL43C67G5Z;
+				INFOPLIST_FILE = HarReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifi.HarReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8397D4D81D71263800081739 /* Build configuration list for PBXProject "HarReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397D4ED1D71263800081739 /* Debug */,
+				8397D4EE1D71263800081739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8397D4EF1D71263800081739 /* Build configuration list for PBXNativeTarget "HarReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397D4F01D71263800081739 /* Debug */,
+				8397D4F11D71263800081739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8397D4D51D71263800081739 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_HarReader {
+  umbrella header "Pods-HarReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

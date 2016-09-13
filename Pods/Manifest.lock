@@ -1,0 +1,27 @@
+PODS:
+  - Decodable (0.4.3)
+  - GZIP (1.1.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Decodable (~> 0.4.3)
+  - GZIP (~> 1.1.1)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 73670b94292b8d8496c398a973f56ac67789ba9f
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Decodable: ab6c7d02a5df949d3ab16b2696528a3241e37c76
+  GZIP: f8beb59597f651e6970a45b816508a9c6d700b77
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 5a567beaf7d61607e2a25d623a50d50bfffbe55b
+
+COCOAPODS: 1.0.1
