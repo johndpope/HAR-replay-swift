@@ -1,10 +1,47 @@
-Install RVM
-\curl -sSL https://get.rvm.io | bash
+## *Saving* HAR HTTP-Archive files from Charles / Dump your traffic
+![alt tag](https://cdn-docs-images.paw.cloud/export-request-1ef93f21d433ce40e9e079e702a85191.png)
 
-Install ruby 
-rvm install ruby-2.2.3
+Let OHTTPStubs replay your traffic eg. openlab.har
 
-gem install bundler
-bundle install
-pod install
+```swift
 
+ let stubbedPayload: [Dictionary<String, String>] = HARStub.stubHarFile(fileName: "openlab")
+        for d0 in stubbedPayload {
+            // Go offline - and watch it replay!
+            if let url = d0["url"] {
+                print("url:",url)
+                Alamofire.request(url).response { response in
+                    print("Request: \(response.request)")
+                    print("Response: \(response.response)")
+                    print("Error: \(response.error)")
+                    
+                    if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+                        print("Data: \(utf8Text)")
+                    }
+                }
+                
+            }
+        }
+ ```
+
+
+
+
+## *Consuming* HAR files
+The HAR files allow for analysis at a later time of the session(s) that have been recorded.
+
+As to how to "visualise" the HAR files, below are some options (I haven't tested all of them):
+
+### HAR Viewer
+Developed by the author of the [NetExport] extension to FireBug, it's the one I've found mentioned more often (and the one I tend to use):
+
+* Tool Link: <http://www.softwareishard.com/har/viewer>
+* Blog/Doc about the tool: <http://www.softwareishard.com/blog/har-viewer>
+* Offline HAR Viewer: <http://code.google.com/p/harviewer/>
+
+### Other tools
+* [Chrome HAR Viewer](http://ericduran.github.io/chromeHAR/)
+* Fiddler 2 - see instructions here: <http://alertfox.com/using-fiddler2-instead-of-the-online-har-viewer/>, more detail on Fiddler import/export options in this [MSDN Blog Post](http://blogs.msdn.com/b/fiddler/archive/2010/06/30/import-and-export-http-archives-from-fiddler.aspx)
+* [PCAP Web Performance Analyzer](http://pcapperf.appspot.com/)
+* [Charles Proxy](http://www.charlesproxy.com/documentation/version-history/)
+* [HTTPWatch](http://blog.httpwatch.com/2009/10/19/httpwatch-version-62-supports-data-exchange-with-firebug/)
