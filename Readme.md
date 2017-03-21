@@ -5,6 +5,8 @@
 This library combines OHHTTPStubs + SwiftyJSON to provide a mock server in 1 line.   
 Let OHTTPStubs replay your traffic eg. openlab.har
 
+Snapshot your API for playback later on / for unit tests or troubleshooting test captures. 
+
 ```swift
 
 usage HARStub.stubHarFile(fileName: "openlab")
