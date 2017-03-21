@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179C8FC21E80A15000CDD6A6 /* HARStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C8FC11E80A15000CDD6A6 /* HARStub.swift */; };
 		833A4A601D71FBE20088E5FD /* CodeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A4A5F1D71FBE20088E5FD /* CodeTools.m */; };
 		833A4A671D71FCC50088E5FD /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 833A4A661D71FCC50088E5FD /* Base64.m */; };
 		834FCE331D888B9500106891 /* openlab.har in Resources */ = {isa = PBXBuildFile; fileRef = 834FCE321D888B9500106891 /* openlab.har */; };
 		8397D4E11D71263800081739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4E01D71263800081739 /* AppDelegate.swift */; };
-		8397D4E31D71263800081739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4E21D71263800081739 /* ViewController.swift */; };
 		8397D4E61D71263800081739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E41D71263800081739 /* Main.storyboard */; };
 		8397D4E81D71263800081739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E71D71263800081739 /* Assets.xcassets */; };
 		8397D4EB1D71263800081739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8397D4E91D71263800081739 /* LaunchScreen.storyboard */; };
-		8397D4F71D71342600081739 /* HARFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397D4F61D71342600081739 /* HARFile.swift */; };
 		CED061C5A9A7F41EFF9F64DA /* Pods_HarReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D0769C06797E6A18B70A73 /* Pods_HarReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179C8FC11E80A15000CDD6A6 /* HARStub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HARStub.swift; sourceTree = "<group>"; };
 		35D0769C06797E6A18B70A73 /* Pods_HarReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E34447BFB33DFD49AFB9CA /* Pods-HarReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarReader/Pods-HarReader.debug.xcconfig"; sourceTree = "<group>"; };
 		833A4A5E1D71FBE20088E5FD /* CodeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTools.h; sourceTree = "<group>"; };
@@ -30,12 +30,10 @@
 		834FCE321D888B9500106891 /* openlab.har */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openlab.har; sourceTree = "<group>"; };
 		8397D4DD1D71263800081739 /* HarReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8397D4E01D71263800081739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8397D4E21D71263800081739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8397D4E51D71263800081739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8397D4E71D71263800081739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8397D4EA1D71263800081739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8397D4EC1D71263800081739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8397D4F61D71342600081739 /* HARFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HARFile.swift; sourceTree = "<group>"; };
 		954A5C7D467BEF645019C4CE /* Pods-HarReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarReader/Pods-HarReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,12 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				8397D4E01D71263800081739 /* AppDelegate.swift */,
-				8397D4E21D71263800081739 /* ViewController.swift */,
 				8397D4E41D71263800081739 /* Main.storyboard */,
 				8397D4E71D71263800081739 /* Assets.xcassets */,
 				8397D4E91D71263800081739 /* LaunchScreen.storyboard */,
 				8397D4EC1D71263800081739 /* Info.plist */,
-				8397D4F61D71342600081739 /* HARFile.swift */,
+				179C8FC11E80A15000CDD6A6 /* HARStub.swift */,
 			);
 			path = HarReader;
 			sourceTree = "<group>";
@@ -150,7 +147,7 @@
 					8397D4DC1D71263800081739 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = KL43C67G5Z;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -214,7 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A6AB4FF74E92359EFFB32B7C /* [CP] Embed Pods Frameworks */ = {
@@ -239,10 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8397D4F71D71342600081739 /* HARFile.swift in Sources */,
 				833A4A671D71FCC50088E5FD /* Base64.m in Sources */,
-				8397D4E31D71263800081739 /* ViewController.swift in Sources */,
 				833A4A601D71FBE20088E5FD /* CodeTools.m in Sources */,
+				179C8FC21E80A15000CDD6A6 /* HARStub.swift in Sources */,
 				8397D4E11D71263800081739 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wifi.HarReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -387,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wifi.HarReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

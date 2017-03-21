@@ -1,27 +1,33 @@
 PODS:
-  - Decodable (0.4.3)
+  - Alamofire (4.4.0)
   - GZIP (1.1.1)
-  - SwiftyJSON (2.3.2)
+  - OHHTTPStubs (5.2.3):
+    - OHHTTPStubs/Default (= 5.2.3)
+  - OHHTTPStubs/Core (5.2.3)
+  - OHHTTPStubs/Default (5.2.3):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (5.2.3):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (5.2.3)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
-  - Decodable (~> 0.4.3)
+  - Alamofire
   - GZIP (~> 1.1.1)
-  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
-
-EXTERNAL SOURCES:
-  SwiftyJSON:
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
-
-CHECKOUT OPTIONS:
-  SwiftyJSON:
-    :commit: 73670b94292b8d8496c398a973f56ac67789ba9f
-    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+  - OHHTTPStubs
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Decodable: ab6c7d02a5df949d3ab16b2696528a3241e37c76
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   GZIP: f8beb59597f651e6970a45b816508a9c6d700b77
-  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  OHHTTPStubs: e238cd5b66d8efa51c861db45895de8fe079f4a7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 5a567beaf7d61607e2a25d623a50d50bfffbe55b
+PODFILE CHECKSUM: 85c5c4be9b040a07bcc795b6bf7e1278a0d6893d
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0
