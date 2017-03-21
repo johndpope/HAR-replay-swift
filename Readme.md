@@ -1,9 +1,24 @@
 ## *Saving* HAR HTTP-Archive files from Charles / Dump your traffic
 ![alt tag](https://cdn-docs-images.paw.cloud/export-request-1ef93f21d433ce40e9e079e702a85191.png)
 
+
+This library combines OHHTTPStubs + SwiftyJSON to provide a mock server in 1 line.
+
+Why?
+
+
 Let OHTTPStubs replay your traffic eg. openlab.har
 
 ```swift
+
+usage HARStub.stubHarFile(fileName: "openlab")
+
+
+// To remove stubs
+ OHHTTPStubs.removeAllStubs()
+ 
+ 
+example with Alamofire 
 
  let stubbedPayload: [Dictionary<String, String>] = HARStub.stubHarFile(fileName: "openlab")
         for d0 in stubbedPayload {
@@ -30,7 +45,7 @@ Let OHTTPStubs replay your traffic eg. openlab.har
 ## *Consuming* HAR files
 The HAR files allow for analysis at a later time of the session(s) that have been recorded.
 
-As to how to "visualise" the HAR files, below are some options (I haven't tested all of them):
+As to how to "visualise" the HAR files, below are some options:
 
 ### HAR Viewer
 Developed by the author of the [NetExport] extension to FireBug, it's the one I've found mentioned more often (and the one I tend to use):
