@@ -2,11 +2,7 @@
 ![alt tag](https://cdn-docs-images.paw.cloud/export-request-1ef93f21d433ce40e9e079e702a85191.png)
 
 
-This library combines OHHTTPStubs + SwiftyJSON to provide a mock server in 1 line.
-
-Why?
-
-
+This library combines OHHTTPStubs + SwiftyJSON to provide a mock server in 1 line.   
 Let OHTTPStubs replay your traffic eg. openlab.har
 
 ```swift
