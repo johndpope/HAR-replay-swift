@@ -1,6 +1,4 @@
 ## *Saving* HAR HTTP-Archive files from Charles / Dump your traffic
-![alt tag](https://cdn-docs-images.paw.cloud/export-request-1ef93f21d433ce40e9e079e702a85191.png)
-
 
 ![](787-progression.gif)
 
